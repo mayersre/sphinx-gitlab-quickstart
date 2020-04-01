@@ -1,0 +1,12 @@
+variables:
+  GIT_SUBMODULE_STRATEGY: recursive
+
+pages:
+  stage: deploy
+  script:
+  - make nopublic clean all
+  artifacts:
+    paths:
+    - public/
+  only:
+  - master

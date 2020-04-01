@@ -1,0 +1,7 @@
+sphinx
+django
+urwid
+gitpython
+sphinxcontrib-bibtex
+sphinx-rtd-theme
+jinja2
